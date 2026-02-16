@@ -1,0 +1,47 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+*.log
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ===============================
+# Node / Frontend
+# ===============================
+node_modules/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Model Weights (IMPORTANT)
+# ===============================
+models/
+*.pth
+zno-explorer-backend/backend/*.pth
+
+# ===============================
+# Docker
+# ===============================
+*.tar
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# VSCode
+# ===============================
+.vscode/

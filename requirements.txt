@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+opencv-python-headless
+pillow
+pandas
+numpy
+scikit-image
+shapely
+pytesseract
+python-multipart
+orjson
